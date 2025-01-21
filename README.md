@@ -13,17 +13,3 @@ A **Flask-based application** for validating OTP (One-Time Password) sent to use
 - 🔒 **Secure Session Management**
 - 📝 **User-Friendly Interface**
 
----
-
-## 🚀 Getting Started
-
-### 🛠️ Prerequisites  
-Ensure you have the following installed:  
-- **Python 3.8+**  
-- **pip**  
-
-### 📥 Installation  
-1. **Clone the Repository**  
-   ```bash
-   git clone <repository-url>
-   cd flask-otp-validation
