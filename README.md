@@ -1,48 +1,29 @@
-🌟 Flask OTP Validation Application 🌟
+# 🌟 Flask OTP Validation Application 🌟
 
-📖 Description
-A Flask-based application for validating OTP (One-Time Password) sent to users via email. This project uses the SMTP and random modules for email delivery and OTP generation.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-2.x-black?logo=flask&logoColor=white)
+![SMTP](https://img.shields.io/badge/SMTP-Enabled-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-🎯 Key Features:
+## 📖 Description  
+A **Flask-based application** for validating OTP (One-Time Password) sent to users via email. This project uses the **SMTP** and **random** modules for email delivery and OTP generation.  
 
-✉️ OTP Generation and Email Delivery
-🔒 Secure Session Management
-📝 User-Friendly Interface
-🚀 Getting Started
-🛠️ Prerequisites
-Ensure you have the following installed:
+🎯 **Key Features**:
+- ✉️ **OTP Generation and Email Delivery**
+- 🔒 **Secure Session Management**
+- 📝 **User-Friendly Interface**
 
-Python 3.8+
-pip
-📥 Installation
-Clone the Repository
-bash
-Copy
-Edit
-git clone <repository-url>
-cd flask-otp-validation
-Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set Environment Variables
-Create a .env file in the root directory:
-plaintext
-Copy
-Edit
-FLASK_APP=app.py
-FLASK_ENV=development
-SECRET_KEY=your_secret_key
-MAIL_SERVER=your_mail_server
-MAIL_PORT=your_mail_port
-MAIL_USERNAME=your_email
-MAIL_PASSWORD=your_password
-▶️ Running the Application
-Start the Flask server:
+---
 
-bash
-Copy
-Edit
-flask run
-Visit the app at http://localhost:5000.
+## 🚀 Getting Started
+
+### 🛠️ Prerequisites  
+Ensure you have the following installed:  
+- **Python 3.8+**  
+- **pip**  
+
+### 📥 Installation  
+1. **Clone the Repository**  
+   ```bash
+   git clone <repository-url>
+   cd flask-otp-validation
